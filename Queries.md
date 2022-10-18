@@ -20,6 +20,7 @@ DELETE /pages
 
 # Indexing documents
 
+```
 PUT /products
 {
   "settings": {
@@ -27,6 +28,7 @@ PUT /products
     "number_of_replicas": 2
   }
 }
+```
 
 ## Indexing document with auto generated ID:
 
